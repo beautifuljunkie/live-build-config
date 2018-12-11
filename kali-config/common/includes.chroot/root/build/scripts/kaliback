@@ -1,0 +1,4 @@
+#!/bin/bash -vx
+PATH=$PATH
+
+cd /etc/apt && apt clean && apt autoclean && mv sources.list~ sources.list && mv sources.list.d/snapback.list sources.list.d/snapback.list~ && /usr/local/sbin/apt-fast update

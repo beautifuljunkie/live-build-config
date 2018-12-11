@@ -1,0 +1,3 @@
+#!/bin/sh
+
+find -L . -type l ! -name 'last*' -exec rm {} \;

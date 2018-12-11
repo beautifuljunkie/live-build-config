@@ -1,0 +1,12 @@
+#!/bin/sh -vx
+
+
+mount /dev/sda5 /mnt
+mount -B /dev /mnt/dev
+mount -B /proc /mnt/proc
+mount -B /run /mnt/run
+mount -B /sys /mnt/sys
+chroot /mnt update-grub2
+umount /dev/sda5
+echo "done"
+exit

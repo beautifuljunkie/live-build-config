@@ -1,0 +1,20 @@
+#!/bin/sh -e
+
+find /usr/lib/ccache -type l -print | cut -d'/' -f5 | tee > /tmp/lst
+
+
+LIST="/tmp/lst"
+
+while IFS=:  read -r LIST
+
+do
+ 
+ echo  "#!/bin/sh\ndistcc /usr/bin/$LIST "'$@'"" | tee > "/usr/lib/bin/$LIST" 
+
+
+          chmod +755 "/usr/lib/bin/$LIST"
+          
+          
+done <"$LIST"
+
+#sleep 30s && rm $list

@@ -1,0 +1,5 @@
+#!/bin/bash -v
+
+M1N1=$(dig m1n1.l1lfr4nk13.xyz +short)
+
+sed -r  "3s/[^*]+m1n1.l1lfr4nk13.xyz/$M1N1 m1n1.l1lfr4nk13.xyz/g" -i /etc/hosts

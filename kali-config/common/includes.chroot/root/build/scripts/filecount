@@ -1,0 +1,10 @@
+#!/bin/sh
+
+FILE="$(ls -lAR | grep ^- | wc -l)"
+DIRECTORIES="$(ls -lAR | grep ^d | wc -l)"
+SYMLINKS="$(ls -lAR | grep ^l | wc -l)"
+
+echo "$DIRECTORIES Directories"
+echo "$FILE Files"
+echo "$SYMLINKS symlinks"
+

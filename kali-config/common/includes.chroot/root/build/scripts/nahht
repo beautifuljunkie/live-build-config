@@ -1,0 +1,7 @@
+#!/bin/bash -vx
+echo 0 > /sys/devices/system/cpu/cpu10/online ; 
+echo 0 > /sys/devices/system/cpu/cpu11/online ; 
+echo 0 > /sys/devices/system/cpu/cpu6/online ; 
+echo 0 > /sys/devices/system/cpu/cpu7/online ; 
+echo 0 > /sys/devices/system/cpu/cpu8/online ; 
+echo 0 > /sys/devices/system/cpu/cpu9/online  

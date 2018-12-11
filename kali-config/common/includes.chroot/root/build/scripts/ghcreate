@@ -1,0 +1,11 @@
+#!/bin/bash -xv
+
+
+echo "REPO NAME:"
+read REPO
+echo '{"name":"REPOS"}' | sed "s/REPOS/$REPO/g" > /tmp/ghcrea
+
+curl -u 'beautifuljunkie' https://api.github.com/user/repos -d @/tmp/ghcrea
+
+rm /tmp/ghcrea
+

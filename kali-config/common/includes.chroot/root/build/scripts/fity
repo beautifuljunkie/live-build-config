@@ -1,0 +1,22 @@
+#!/bin/sh 
+
+echo "LIST TPYE ,THEN HIT ENTER:"
+read TYPEY
+#echo "SCAN WHERE?"
+#read SCANPOINT
+echo "SAVE TO?"
+read LOCATION				
+
+find $PWD -name '*' -exec file --mime-type "{}" \; | grep -io -P "^.+: "$TYPEY"" | cut -d':' -f1 | tee > ~/Documents/list
+
+list="/root/Documents/list"
+
+while IFS=:  read -r list
+
+do
+ 
+       	mv -v "$list" "$LOCATION" 
+
+done <"$list"
+
+#sleep 30s && rm $list

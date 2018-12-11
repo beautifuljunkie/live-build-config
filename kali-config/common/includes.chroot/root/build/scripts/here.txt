@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Mirror List</title>
+</head>
+
+<body>
+<div id="mirrorbrain-details">
+  <h2>Mirrors for <a href="http://http.kali.org/README">README</a></h2>
+<div id="mirrorbrain-fileinfo">
+<h3>File information</h3>
+<ul>
+  <li><span class="mirrorbrain-label">Filename:</span> README</li>
+  <li><span class="mirrorbrain-label">Path:</span> /README</li>
+  <li><span class="mirrorbrain-label">Size:</span> 159  (159 bytes)</li>
+  <li><span class="mirrorbrain-label">Last modified:</span> Mon, 04 Mar 2013 15:57:53 GMT (Unix time: 1362412673)</li>
+</ul>
+<p><a href="http://http.kali.org/README" class="mirrorbrain-btn">Download file from preferred mirror</a></p>
+</div>
+
+<div id="mirrorbrain-links">
+<h3>Reliable downloads</h3>
+<div class="mirrorbrain-links-grp">
+<h4>Metalink</h4>
+<ul>
+  <li><a href="http://http.kali.org/README.meta4">http://http.kali.org/README.meta4</a> (IETF Metalink)</li>
+  <li><a href="http://http.kali.org/README.metalink">http://http.kali.org/README.metalink</a> (old (v3) Metalink)</li>
+</ul>
+</div>
+</div>
+
+<div id="mirrorbrain-mirrors">
+<h3>Mirrors</h3>
+<p>List of best mirrors for IP address 39.109.222.158, located at 1.293100,103.855797 in Singapore (SG).</p>
+
+<p><a href="http://maps.google.com/maps/api/staticmap?size=640x512&amp;visual_refresh=true&amp;scale=2&amp;maptype=roadmap&amp;sensor=false&amp;markers=color:red|1.293100,103.855797&amp;markers=color:yellow|label:1|23.500000,121.000000&amp;markers=color:yellow|label:2|25.039000,121.525002&amp;markers=color:yellow|label:3|38.911999,121.601997&amp;markers=color:yellow|label:4|37.511002,126.973999&amp;markers=color:yellow|label:5|37.750999,-97.821999&amp;markers=color:yellow|label:6|54.416000,86.297997&amp;markers=color:yellow|label:7|-37.778000,175.309998&amp;markers=color:yellow|label:8|-41.282001,174.774994&amp;markers=color:yellow|label:9|50.102001,14.400000">Map showing the closest mirrors</a></p>
+
+<div class="mirrorbrain-mirrors-grp">
+<h4>Found 5 mirrors which handle this country (SG)</h4>
+<ul>
+ <li><a href="http://ftp.yzu.edu.tw/Linux/kali/README">http://ftp.yzu.edu.tw/Linux/kali/README</a> (tw, prio 100)</li>
+ <li><a href="http://kali.cs.nctu.edu.tw/kali/README">http://kali.cs.nctu.edu.tw/kali/README</a> (tw, prio 100)</li>
+ <li><a href="http://mirrors.neusoft.edu.cn/kali/README">http://mirrors.neusoft.edu.cn/kali/README</a> (cn, prio 100)</li>
+ <li><a href="http://ftp.harukasan.org/kali/README">http://ftp.harukasan.org/kali/README</a> (kr, prio 100)</li>
+ <li><a href="http://kali.download/kali/README">http://kali.download/kali/README</a> (us, prio 400)</li>
+</ul>
+</div>
+
+<div class="mirrorbrain-mirrors-grp">
+<h4>Found 17 mirrors in other parts of the world</h4>
+<ul>
+  <li><a href="http://mirror-1.truenetwork.ru/kali/README">http://mirror-1.truenetwork.ru/kali/README</a> (ru, prio 100)</li>
+  <li><a href="http://hlzmel.fsmg.org.nz/kali/README">http://hlzmel.fsmg.org.nz/kali/README</a> (nz, prio 100)</li>
+  <li><a href="http://wlglam.fsmg.org.nz/kali/README">http://wlglam.fsmg.org.nz/kali/README</a> (nz, prio 100)</li>
+  <li><a href="http://mirror.karneval.cz/pub/linux/kali/README">http://mirror.karneval.cz/pub/linux/kali/README</a> (cz, prio 100)</li>
+  <li><a href="http://ftp.acc.umu.se/mirror/kali.org/kali/README">http://ftp.acc.umu.se/mirror/kali.org/kali/README</a> (se, prio 200)</li>
+  <li><a href="http://mirrors.dotsrc.org/kali/README">http://mirrors.dotsrc.org/kali/README</a> (dk, prio 100)</li>
+  <li><a href="http://ftp.halifax.rwth-aachen.de/kali/README">http://ftp.halifax.rwth-aachen.de/kali/README</a> (de, prio 400)</li>
+  <li><a href="http://ftp.belnet.be/pub/kali/kali/README">http://ftp.belnet.be/pub/kali/kali/README</a> (be, prio 200)</li>
+  <li><a href="http://ftp1.nluug.nl/os/Linux/distr/kali/README">http://ftp1.nluug.nl/os/Linux/distr/kali/README</a> (nl, prio 100)</li>
+  <li><a href="http://ftp2.nluug.nl/os/Linux/distr/kali/README">http://ftp2.nluug.nl/os/Linux/distr/kali/README</a> (nl, prio 100)</li>
+  <li><a href="http://mirror.serverius.net/kali/README">http://mirror.serverius.net/kali/README</a> (nl, prio 100)</li>
+  <li><a href="http://mirror.neostrada.nl/kali/README">http://mirror.neostrada.nl/kali/README</a> (nl, prio 100)</li>
+  <li><a href="http://ftp.free.fr/pub/kali/README">http://ftp.free.fr/pub/kali/README</a> (fr, prio 200)</li>
+  <li><a href="http://ftp.hands.com/kali/README">http://ftp.hands.com/kali/README</a> (gb, prio 100)</li>
+  <li><a href="http://kali.mirror.globo.tech/kali/README">http://kali.mirror.globo.tech/kali/README</a> (ca, prio 100)</li>
+  <li><a href="http://mirror.pwnieexpress.com/kali/README">http://mirror.pwnieexpress.com/kali/README</a> (us, prio 20)</li>
+  <li><a href="http://mirrors.ocf.berkeley.edu/kali/README">http://mirrors.ocf.berkeley.edu/kali/README</a> (us, prio 100)</li>
+</ul>
+</div>
+
+</div>
+<address>Powered by <a href="http://mirrorbrain.org/">MirrorBrain</a></address>
+</div><!-- mirrorbrain-details -->
+</body>
+</html>
