@@ -76,18 +76,18 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
 
-    #alias grep='grep --color=auto'
-    #alias fgrep='fgrep --color=auto'
-    #alias egrep='egrep --color=auto'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
 fi
 
 # some more ls aliases
-#alias ll='ls -l'
-#alias la='ls -A'
-#alias l='ls -CF'
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -108,3 +108,71 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#PATH=/usr/lib/ccache:/usr/lib/dbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+#PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+#EXTRA PATH
+PATH=/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+KERGIT=git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+CROTO=/root/build/tools/cross-gcc-packages-amd64/cross-gcc-8-amd64
+#DISTCC_CMDLIST=/root/.distcc/DISTCC_CMDLIST
+#DISTCC_CMDLIST_NUMWORDS=2
+CCACHE_VERBOSE=1
+CCACHE_DEBUG=1
+DISTCC_DEBUG=1
+#DISTCC_PATH=/usr/lib/dbin:/usr/bin
+DISTCC_VERBOSE=1
+#CCACHE_PREFIX=
+#CCACHE_PREFIX_CPP=ccache
+#DISTCC_HOSTS=127.0.0.1
+DISTCC_DIR=/mnt/ramdisk/distcc
+DISTCC_SAVE_TEMPS=0
+GCC_COLORS=1
+KBUILD_VERBOSE=
+SPHINXDIRS="networking input core-api userspace-api sound maintainer media process gpu crypto vm sh driver-api filesystems dev-tools kernel-hacking admin-guide doc-guide"
+COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+
+export COMMAND_NOT_FOUND_INSTALL_PROMPT CCACHE_VERBOSE DISTCC_DEBUG DISTCC_VERBOSE GCC_COLORS PATH KERGIT CROTO SPHINXDIRS DISTCC_SAVE_TEMPS DISTCC_DIR KBUILD_VERBOSE DISTCC_CMDLIST #DISTCC_HOSTS DISTCC_CMDLIST_NUMWORDS CCACHE_PREFIX_CPP CCACHE_VERBOSE CCACHE_DEBUG DISTCC_DEBUG DISTCC_PATH DISTCC_VERBOSE GCC_COLORS PATH KERGIT CROTO SPHINXDIRS CCACHE_PREFIX DISTCC_SAVE_TEMPS DISTCC_DIR KBUILD_VERBOSE DISTCC_CMDLIST
+ethtool -s eth0 wol g ; ethtool -s eth1 wol g
+lolcat -a -s 35 -d 1 -p 2.5 /usr/src/motd
+
+
+
+#repeat commands
+function repeat() {
+    number=$1
+    shift
+    for n in $(seq $number); do
+      $@
+    done
+}
+#PATH=/usr/lib/ccache:/usr/lib/dbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+#PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+#EXTRA PATH
+PATH=/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+KERGIT=git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+CROTO=/root/build/tools/cross-gcc-packages-amd64/cross-gcc-8-amd64
+#DISTCC_CMDLIST=/root/.distcc/DISTCC_CMDLIST
+#DISTCC_CMDLIST_NUMWORDS=2
+CCACHE_VERBOSE=1
+CCACHE_DEBUG=1
+DISTCC_DEBUG=1
+#DISTCC_PATH=/usr/lib/dbin:/usr/bin
+DISTCC_VERBOSE=1
+#CCACHE_PREFIX=
+#CCACHE_PREFIX_CPP=ccache
+#DISTCC_HOSTS=127.0.0.1
+DISTCC_DIR=/mnt/ramdisk/distcc
+DISTCC_SAVE_TEMPS=0
+GCC_COLORS=1
+KBUILD_VERBOSE=
+SPHINXDIRS="networking input core-api userspace-api sound maintainer media process gpu crypto vm sh driver-api filesystems dev-tools kernel-hacking admin-guide doc-guide"
+COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+
+export COMMAND_NOT_FOUND_INSTALL_PROMPT CCACHE_VERBOSE DISTCC_DEBUG DISTCC_VERBOSE GCC_COLORS PATH KERGIT CROTO SPHINXDIRS DISTCC_SAVE_TEMPS DISTCC_DIR KBUILD_VERBOSE DISTCC_CMDLIST #DISTCC_HOSTS DISTCC_CMDLIST_NUMWORDS CCACHE_PREFIX_CPP CCACHE_VERBOSE CCACHE_DEBUG DISTCC_DEBUG DISTCC_PATH DISTCC_VERBOSE GCC_COLORS PATH KERGIT CROTO SPHINXDIRS CCACHE_PREFIX DISTCC_SAVE_TEMPS DISTCC_DIR KBUILD_VERBOSE DISTCC_CMDLIST
+ethtool -s eth0 wol g ; ethtool -s eth1 wol g
+lolcat -a -s 35 -d 1 -p 2.5 /usr/src/motd
+
+
+
+
