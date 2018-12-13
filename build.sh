@@ -5,11 +5,11 @@ set -o pipefail  # Bashism
 
 KALI_DIST="kali-rolling"
 KALI_VERSION=""
-KALI_VARIANT="default"
+KALI_VARIANT="LXQt"
 TARGET_DIR="$(dirname $0)/images"
 TARGET_SUBDIR=""
 SUDO="sudo"
-VERBOSE=""
+VERBOSE="1"
 HOST_ARCH=$(dpkg --print-architecture)
 
 image_name() {

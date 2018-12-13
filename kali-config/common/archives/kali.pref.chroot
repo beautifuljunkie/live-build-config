@@ -1,0 +1,19 @@
+Package: *
+Pin: release o=Kali,a=kali-rolling
+Pin-Priority: 1001
+
+Package: accountsservice
+Pin: release o=Kali,a=kali-rolling
+Pin-Priority: -1
+
+Package: calibre*
+Pin: release o=Kali,a=kali-rolling
+Pin-Priority: -1
+
+Package: libreoffice*
+Pin: release o=Kali,a=kali-rolling
+Pin-Priority: -1
+
+Package: vlc*
+Pin: release o=Kali,a=kali-rolling
+Pin-Priority: -1
