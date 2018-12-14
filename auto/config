@@ -118,8 +118,8 @@ if [ -n "$enable_pu" ]; then
 fi
 
 lb config noauto \
-	--apt "aptitude" \
-	--distribution "$dist" \
+	--apt "apt" \
+ 	--distribution "$dist" \
 	--debian-installer-distribution "$dist" \
 	--archive-areas "main contrib non-free" \
 	--debootstrap-options "--keyring=/usr/share/keyrings/kali-archive-keyring.gpg" \

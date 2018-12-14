@@ -55,3 +55,7 @@ compton
 xfce4-terminal
 mkalias
 ddclient
+featherpad
+distcc
+ccache
+html-xml-utils

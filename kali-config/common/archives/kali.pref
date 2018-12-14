@@ -18,10 +18,6 @@ Package: *vlc*
 Pin: release o=Kali,a=kali-rolling
 Pin-Priority: -1
 
-Package: *l10n
-Pin: release o=Kali,a=kali-rolling
-Pin-Priority: -1
-
 Package: plasma-desktop
 Pin: release o=Kali,a=kali-rolling
 Pin-Priority: -1
